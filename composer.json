@@ -1,9 +1,13 @@
 {
     "name": "zhaojc/test",
     "require": {
+        "php": ">=7.2.0",
         "ext-pdo_mysql": "^7.2"
     },
     "require-dev": {
         "ext-pdo_mysql": "^7.2"
+    },
+    "autoload": {
+        "psr-4": { "Soeasy\\Demo\\": "src" }
     }
 }
